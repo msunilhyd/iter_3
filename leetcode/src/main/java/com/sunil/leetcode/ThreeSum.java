@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ThreeSum {
     public static void main(String[] args) {
-        int[] arr = {7, 12, 3, 1, 2, -6, 5, -8, 6};
+        int[] arr = {2, -2, 1, 1};
 
         int target = 0;
 

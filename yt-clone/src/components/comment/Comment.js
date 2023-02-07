@@ -3,7 +3,6 @@ import moment from 'moment'
 import './_comment.scss'
 
 const Comment = ({ comment }) => {
-  
   const { 
     authorDisplayName,
     authorProfileImageUrl,
@@ -28,4 +27,4 @@ const Comment = ({ comment }) => {
   )
 }
 
-export default Comment;
+export default Comment

@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {
   addComment,
-  getCommentsOfVideosById,
+  getCommentsOfVideoById,
 } from '../../redux/actions/comments.action'
-import Comment from '../comment/Comment';
+import Comment from '../comment/Comment'
 import './_comments.scss'
 
 const Comments = ({ videoId, totalComments }) => {
@@ -31,7 +31,7 @@ const Comments = ({ videoId, totalComments }) => {
 
     setText('')
   }
-
+  
   return (
     <div className='comments'>
       <p>{totalComments} Comments</p>
@@ -39,20 +39,20 @@ const Comments = ({ videoId, totalComments }) => {
         <img
           src='https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png'
           alt=''
-          className='mr-3 rounded-circle' 
+          className='mr-3 rounded-circle'
+        />
+        <form onSubmit={handleComment} className='d-flex flex-grow-1'>
+          <input
+            type='text'
+            className='flex-grow-1'
+            placeholder='Write a comment...'
+            value={text}
+            onChange={e => setText(e.target.value)}
           />
-          <form onSubmit={handleComment} className='d-flex flex-grow-1'>
-            <input
-              type='text'
-              className='flex-grow-1'
-              placeholder='Write a comment...'
-              value={text}
-              onChange={e => setText(e.target.value)}
-            />
-            <button className='p-2 border-0'>Comment</button>
-          </form>
+          <button className='p-2 border-0'>Comment</button>
+        </form>
       </div>
-      <div className='comments__list'>
+      <div className='comment__list'>
         {_comments?.map((comment, i) => (
           <Comment comment={comment} key={i} />
         ))}
@@ -61,4 +61,4 @@ const Comments = ({ videoId, totalComments }) => {
   )
 }
 
-export default Comments;
+export default Comments

@@ -19,19 +19,17 @@ const Header = ({ handleToggleSidebar }) => {
   }
 
   return (
-    <div className='header '>
+    <div className='header'>
       <FaBars
         className='header__menu'
-        size={26} 
-        onClick={() => handleToggleSidebar()}
+        size={26}
+        onClick={() => handleToggleSidebar}
       />
-
-      <img 
+      <img
         src='http://pngimg.com/uploads/youtube/youtube_PNG2.png'
         alt=''
         className='header__logo'
       />
-
       <form onSubmit={handleSubmit}>
         <input
           type='text'
@@ -44,7 +42,7 @@ const Header = ({ handleToggleSidebar }) => {
         </button>
       </form>
 
-      <div className='header__icons'>
+      <div className='header_icons'>
         <MdNotifications size={28} />
         <MdApps size={28} />
         <img
@@ -52,8 +50,8 @@ const Header = ({ handleToggleSidebar }) => {
           alt='avatar'
         />
       </div>
-    </div> 
+    </div>
   )
 }
 
-export default Header;
+export default Header

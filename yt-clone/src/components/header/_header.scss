@@ -1,4 +1,4 @@
-@import '../../base.scss';
+@import '../../base.scss'
 
 .header {
   display: flex;
@@ -16,18 +16,15 @@
   top: 0;
 
   z-index: 999;
-
   &__menu {
     display: none;
   }
-
   &__logo {
     width: 30px;
     height: 30px;
     object-fit: contain;
     display: block;
   }
-
   form {
     flex: 0.6;
     display: flex;
@@ -51,11 +48,11 @@
     }
 
     button {
-      padding: 0 1.25rem;
+      padding: 0 1.25 rem;
       color: $text-color;
       background: transparent;
-      border: none;
-      &:focus {
+      border: none;     
+      &:foucs {
         border: none;
       }
     }
@@ -64,7 +61,7 @@
   &__icons {
     flex: 0.15;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     img {
       border-radius: 50%;

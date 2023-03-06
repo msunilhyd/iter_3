@@ -1,3 +1,9 @@
+
+import { LOGIN_SUCCESS } from '../actionType';
+import { LOGIN_REQUEST } from '../actionType';
+import { LOGIN_FAIL } from '../actionType';
+import { LOAD_PROFILE } from '../actionType';
+
 const initialState = {
   accessToken: null,
   user: null,

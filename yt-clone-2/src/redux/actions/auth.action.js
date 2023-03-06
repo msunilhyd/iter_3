@@ -4,6 +4,12 @@ import {
   signInWithRedirect 
 } from 'firebase/auth'
 
+
+import { LOGIN_SUCCESS } from '../actionType';
+import { LOGIN_REQUEST } from '../actionType';
+import { LOGIN_FAIL } from '../actionType';
+import { LOAD_PROFILE } from '../actionType';
+
 import { auth } from '../../firebase'
 
 export const login = () => async dispatch => {
@@ -19,11 +25,12 @@ export const login = () => async dispatch => {
 
     const res = await signInWithPopup(auth, provider)
 
-    const accessToken = res.credential.accessToken
+    console.log(res)
+    const accessToken = res.user.accessToken
 
     const profile = {
-      name: res.additionalUserInfo.profile.displayName,
-      photoURL: res.additionalUserInfo.profile.photoURL,
+      name: res.user.displayName,
+      photoURL: res.user.photoURL,
     }
     dispatch({
       type: LOGIN_SUCCESS,

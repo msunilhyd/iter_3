@@ -7,6 +7,9 @@ import { Container } from 'react-bootstrap'
 
 import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom'
 
+import { useSelector } from 'react-redux'
+import { useEffect, useHistory } from 'react'
+
 import './_app.scss'
 
 const Layout = ({children}) => {
@@ -33,12 +36,18 @@ const Layout = ({children}) => {
 
 const App = () => {
 
+  const { accessToken, loading } = useSelector(state => state.auth)
+
+  const history = useHistory()
   
+  useEffect(() => {
+
+    if (!loading && !accessToken) {
+      history.push('/auth')
+    }
+  }, [accessToken, loading, history])
 
   return (
-
-    <Router>
-
       <Routes>
 
         <Route path='/' exact element={(
@@ -70,7 +79,6 @@ const App = () => {
           element={<Navigate to='/' />} 
         />
       </Routes>
-    </Router>
   )
 }
 

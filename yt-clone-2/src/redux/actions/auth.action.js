@@ -32,6 +32,10 @@ export const login = () => async dispatch => {
       name: res.user.displayName,
       photoURL: res.user.photoURL,
     }
+
+    sessionStorage.setItem("ytc-access-token", accessToken)
+    sessionStorage.setItem("ytc-user", JSON.stringigy(profile))
+
     dispatch({
       type: LOGIN_SUCCESS,
       payload: accessToken,

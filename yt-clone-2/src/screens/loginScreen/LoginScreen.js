@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from 'react-router-dom';
 import { login } from '../../redux/actions/auth.action';
+import { useHistory, useEffect } from 'react'
 
 import './_loginScreen.scss';
 

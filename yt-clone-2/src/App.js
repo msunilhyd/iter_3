@@ -5,10 +5,10 @@ import HomeScreen from './screens/homeScreen/HomeScreen'
 import LoginScreen from './screens/loginScreen/LoginScreen'
 import { Container } from 'react-bootstrap'
 
-import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
 
 import { useSelector } from 'react-redux'
-import { useEffect, useHistory } from 'react'
+import { useEffect } from 'react'
 
 import './_app.scss'
 
@@ -38,14 +38,14 @@ const App = () => {
 
   const { accessToken, loading } = useSelector(state => state.auth)
 
-  const history = useHistory()
+  const navigate = useNavigate()
   
   useEffect(() => {
 
     if (!loading && !accessToken) {
-      history.push('/auth')
+      navigate('/auth')
     }
-  }, [accessToken, loading, history])
+  }, [accessToken, loading, navigate])
 
   return (
       <Routes>

@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02be13b-38f6-42a3-8c85-867d86289dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorldClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewProject/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/src/main/java/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/src/main/java/SomeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondProject/src/main/java/SunilsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyFirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SecondClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloWorldClass.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +42,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SecondClass">
     <configuration name="HelloWorldClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorldClass" />
       <module name="KProject" />
@@ -69,8 +54,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyFirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyFirstClass" />
+      <module name="KProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondClass" />
+      <module name="KProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondClass" />
+        <item itemvalue="Application.MyFirstClass" />
         <item itemvalue="Application.HelloWorldClass" />
       </list>
     </recent_temporary>

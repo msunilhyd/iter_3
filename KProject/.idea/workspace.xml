@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02be13b-38f6-42a3-8c85-867d86289dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FourthClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SomeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThirdClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OtherClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SomethingDifferentClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SecondClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SecondClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SomeClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SomeClass">
-    <configuration name="ExClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExClass" />
-      <module name="KProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OtherClass">
     <configuration name="FourthClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FourthClass" />
       <module name="KProject" />
@@ -70,6 +60,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OtherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OtherClass" />
+      <module name="KProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SomeClass" />
       <module name="KProject" />
@@ -77,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdClass" />
+    <configuration name="SomethingDifferentClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomethingDifferentClass" />
       <module name="KProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OtherClass" />
+        <item itemvalue="Application.SomethingDifferentClass" />
         <item itemvalue="Application.SomeClass" />
         <item itemvalue="Application.NewClass" />
         <item itemvalue="Application.FourthClass" />
-        <item itemvalue="Application.ExClass" />
-        <item itemvalue="Application.ThirdClass" />
       </list>
     </recent_temporary>
   </component>

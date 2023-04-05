@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02be13b-38f6-42a3-8c85-867d86289dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SomethingDifferentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youtube-clone-react-redux/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube-clone-react-redux/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youtube-clone-react-redux/src/components/sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube-clone-react-redux/src/components/sidebar/Sidebar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OtherClass">
-    <configuration name="FourthClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourthClass" />
+  <component name="RunManager" selected="Application.ListExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListExample" />
       <module name="KProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewClass" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapExample" />
       <module name="KProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SomeClass" />
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetExample" />
       <module name="KProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListExample" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.SetExample" />
         <item itemvalue="Application.OtherClass" />
         <item itemvalue="Application.SomethingDifferentClass" />
-        <item itemvalue="Application.SomeClass" />
-        <item itemvalue="Application.NewClass" />
-        <item itemvalue="Application.FourthClass" />
       </list>
     </recent_temporary>
   </component>

@@ -14,6 +14,7 @@ import WatchScreen from './screens/watchScreen/WatchScreen'
 import SearchScreen from './screens/SearchScreen'
 import SubscriptionsScreen from './screens/subscriptionsScreen/SubscriptionsScreen'
 import ChannelScreen from './screens/channelScreen/ChannelScreen'
+import PlayListsScreen from './screens/playListsScreen/PlayListsScreen'
 
 const Layout = ({ children }) => {
    const [sidebar, toggleSidebar] = useState(false)
@@ -51,7 +52,8 @@ const App = () => {
       <Switch>
          <Route path='/' exact>
             <Layout>
-               <HomeScreen />
+               {/* <HomeScreen /> */}
+               <PlayListsScreen />
             </Layout>
          </Route>
 

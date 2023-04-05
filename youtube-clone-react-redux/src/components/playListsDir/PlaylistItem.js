@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { AiFillPlayCircle } from 'react-icons/ai';
 
 class PlaylistItem extends Component {
 	constructor(props){
@@ -93,12 +94,12 @@ class PlaylistItem extends Component {
 	renderPlayPauseButton(){
 		if(!this.state.paused && this.props.playing === this.props.song) {
 			return <button className="btn btn-neutral play-button"  onClick={(e) => this.pause()}>
-       <i className="fa fa-pause play-pause"></i>
+       < AiFillPlayCircle />
      </button>;
 
 		} else {
 			return <button className="btn btn-neutral play-button" onClick={(e) => this.playSong()}>
-      <i className="fa fa-play play-pause"></i>
+				<AiFillPlayCircle />
     </button>;
 		}
 	}

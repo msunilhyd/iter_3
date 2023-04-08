@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02be13b-38f6-42a3-8c85-867d86289dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleXClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TenthClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DifferentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Something.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session2/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session2/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session3/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session4/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session5/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session6/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ListExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube-clone-react-redux/src/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube-clone-react-redux/src/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../youtube-clone-react-redux/src/components/playListsDir/Playlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/../youtube-clone-react-redux/src/components/playListsDir/Playlist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TenthClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TenthClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vehicle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,49 +54,73 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TenthClass">
-    <configuration name="AnotherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnotherClass" />
+  <component name="RunManager" selected="Application.session6.MainClass">
+    <configuration name="DifferentClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DifferentClass" />
       <module name="KProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleXClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleXClass" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session2.MainClass" />
       <module name="KProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListExample" />
+    <configuration name="session3.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session3.MainClass" />
       <module name="KProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapExample" />
+    <configuration name="session4.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session4.MainClass" />
       <module name="KProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TenthClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TenthClass" />
+    <configuration name="session6.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session6.MainClass" />
       <module name="KProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TenthClass" />
-        <item itemvalue="Application.AnotherClass" />
-        <item itemvalue="Application.DoubleXClass" />
-        <item itemvalue="Application.ListExample" />
-        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.session6.MainClass" />
+        <item itemvalue="Application.session4.MainClass" />
+        <item itemvalue="Application.session3.MainClass" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.DifferentClass" />
       </list>
     </recent_temporary>
   </component>

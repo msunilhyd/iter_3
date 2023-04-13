@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02be13b-38f6-42a3-8c85-867d86289dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DifferentClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Something.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session2/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session3/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session4/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session5/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/session6/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session10/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session8/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session8/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/session9/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TenthClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TenthClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/session6/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/session6/Car.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +48,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.session6.MainClass">
-    <configuration name="DifferentClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DifferentClass" />
-      <module name="KProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="session2.MainClass" />
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session9.Main" />
       <module name="KProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="session2.*" />
+          <option name="PATTERN" value="session9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="session3.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="session3.MainClass" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session10.MainClass" />
       <module name="KProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="session3.*" />
+          <option name="PATTERN" value="session10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="session8.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session8.MainClass" />
+      <module name="KProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.session8.MainClass" />
         <item itemvalue="Application.session6.MainClass" />
         <item itemvalue="Application.session4.MainClass" />
-        <item itemvalue="Application.session3.MainClass" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.DifferentClass" />
       </list>
     </recent_temporary>
   </component>
